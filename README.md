@@ -33,7 +33,7 @@ This project is a Machine Learning-based Intrusion Detection System (IDS) design
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/your-repo/intrusion-detection-system.git](https://github.com/MDfazil4/Machine-learning-based-intrusion-detection-system.git)
+   git clone https://github.com/your-repo/intrusion-detection-system.git
    cd intrusion-detection-system
    ```
 
@@ -56,14 +56,8 @@ This project is a Machine Learning-based Intrusion Detection System (IDS) design
 
 ## **Usage**
 
-- **Training the LSTM Model:**
-  The `train_lstm_model.py` script trains the LSTM model on network traffic data.
-
 - **SHAP Interpretability:**
-  The `shap_analysis.py` script performs SHAP analysis on the trained model, providing insights into which features most influence model predictions.
-
-- **Real-Time Detection:**
-  Use the `real_time_detection.py` script to perform real-time detection on incoming network traffic.
+  The `Lstn_SHAP.py` script performs SHAP analysis on the trained model, providing insights into which features most influence model predictions.
 
 ---
 
